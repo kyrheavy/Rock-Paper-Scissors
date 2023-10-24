@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="score">
+        <h1 class="ties">Ties: 0</h1>
+        <h1 class="opener">Welcome to Rock, Paper Scissors</h1>
+        <p class="description">To start the game simply click your choice & the computer will automatically start the fight until one of you reach 5 points, Good Luck!</p>
+   </div>
+   <div class="winnerDiv">
+        <h1 class="winner"></h1>
+        <div class="buttonBox">
+            <button class="restartGame button" onclick="playAgain()">Play Again?</button>
+        </div>
+    </div>
+    <div class="playerSection">
+    <h3 class="playerChoice"></h3>
+    <h3 class="playerScore">Score: 0</h3>
+       <div class="playerImgs" >
+        <img src="./images/Rock.png" alt="rock" class="pImg" id="rock">
+        <img src="./images/Paper.png" alt="paper" class="pImg" id="paper">
+        <img src="./images/scissors.png" alt="scissors" class="pImg" id="scissors">
+       </div>
+    </div> 
+    <hr>
+    <div class="compSection">
+        <h3 class="compChoice"></h3>
+        <h3 class="compScore">Score: 0</h3>
+        <div class="compImgs">
+            <img src="./images/Rock.png" alt="rock" class="rock">
+            <img src="./images/Paper.png" alt="paper" class="paper">
+            <img src="./images/scissors.png" alt="scissors" class="scissors">
+        </div>
+   </div>
+   <script src="myScripts.js"></script>
+</body>
+</html>
