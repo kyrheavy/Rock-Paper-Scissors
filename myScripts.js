@@ -1,8 +1,8 @@
-/* let draw = `$That's a Draw, yall both picked ${playerChoice}`;  */
+// global values
 const choices = ['rock', 'paper', 'scissors'];
 let winners = [];
 
-// works fine
+
 function getComputerChoice(){
     return choices[Math.floor(Math.random() * choices.length)];
 }
